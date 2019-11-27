@@ -49,6 +49,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "comp_state"
+version = "0.0.3"
+dependencies = [
+ "anymap",
+ "enclose",
+ "slotmap",
+ "topo",
+]
+
+[[package]]
 name = "console_error_panic_hook"
 version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -378,7 +388,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3964ebb713d49918e95c72867880b4608d73c494090938c4ed4dc749476f049e"
 dependencies = [
  "anymap",
- "comp_state",
+ "comp_state 0.0.1",
  "enclose",
  "futures",
  "js-sys",
@@ -482,7 +492,7 @@ dependencies = [
 name = "todo_example"
 version = "0.1.0"
 dependencies = [
- "comp_state",
+ "comp_state 0.0.3",
  "enclose",
  "futures",
  "js-sys",
