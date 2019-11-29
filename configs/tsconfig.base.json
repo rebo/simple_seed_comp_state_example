@@ -2,11 +2,14 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esNext",
-    "lib": ["dom", "es2015"],
+    "lib": [
+      "dom",
+      "es2015"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
@@ -22,5 +25,7 @@
     "strictPropertyInitialization": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["../**/*/"]
+  "include": [
+    "../**/*/"
+  ]
 }
