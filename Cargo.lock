@@ -51,6 +51,8 @@ dependencies = [
 [[package]]
 name = "comp_state"
 version = "0.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cf4007b15a497af1de5294d9016ff7dda6ee551e54ea9b9c40524ce871fc9584"
 dependencies = [
  "anymap",
  "enclose",
