@@ -1,10 +1,8 @@
 #![allow(non_snake_case)]
 use crate::generated::css_classes::C;
 
-use comp_state::{topo, use_istate};
-use seed::dom_types::UpdateEl;
-use seed::prelude::*;
-use seed::*;
+use comp_state::use_istate;
+use seed::{dom_types::UpdateEl, prelude::*, *};
 use seed_comp_helpers::on_click;
 
 use super::Msg;
