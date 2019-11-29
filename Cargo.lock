@@ -50,9 +50,9 @@ dependencies = [
 
 [[package]]
 name = "comp_state"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cf4007b15a497af1de5294d9016ff7dda6ee551e54ea9b9c40524ce871fc9584"
+checksum = "d4e4dc9cece7307b4aebbd5df0238405552db6dd2f82bc39002c1b52dc35d743"
 dependencies = [
  "anymap",
  "enclose",
@@ -494,7 +494,7 @@ dependencies = [
 name = "todo_example"
 version = "0.1.0"
 dependencies = [
- "comp_state 0.0.3",
+ "comp_state 0.0.4",
  "enclose",
  "futures",
  "js-sys",

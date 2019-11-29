@@ -16,7 +16,7 @@ crate-type = ["cdylib"]
 wasm-bindgen-test = "^0.2.50" # sync with `wasm-bindgen`
 
 [dependencies]
-comp_state = "0.0.3"
+comp_state = "0.0.4"
 # comp_state = {path = "../../comp_state"}
 seed_comp_helpers = "0.0.1"
 enclose = "1.1.8"
