@@ -67,7 +67,7 @@ pub fn view(_model: &Model) -> impl View<Msg> {
 
 pub fn update(msg: Msg, _model: &mut Model, _orders: &mut impl Orders<Msg>) {
     match msg {
-        Msg::DoNothing => {}
+        Msg::DoNothing => {},
     }
 }
 
@@ -78,9 +78,7 @@ pub fn update(msg: Msg, _model: &mut Model, _orders: &mut impl Orders<Msg>) {
 #[wasm_bindgen(start)]
 pub fn run() {
     log!("Starting app...");
-    App::build(init, update, view)
-        .routes(routes)
-        .build_and_start();
+    App::build(init, update, view).routes(routes).build_and_start();
 
     log!("App started.");
 }
